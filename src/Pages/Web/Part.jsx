@@ -20,10 +20,12 @@ export default function Part() {
                   solutions that stand out. Whether you need a brand-new site or
                   a redesign, our expert team is here to transform your online
                   presence.
-                  <p> Discover the power of effective web design with AKSH
-                Technology. Lets create something amazing together.</p>
+                  <p>
+                    {" "}
+                    Discover the power of effective web design with AKSH
+                    Technology. Lets create something amazing together.
+                  </p>
                 </p>
-                
               </section>
             </div>
             <div className="flex justify-center transition-transform duration-300 ease-in-out lg:justify-end hover:scale-105">
