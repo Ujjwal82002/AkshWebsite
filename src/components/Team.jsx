@@ -9,9 +9,9 @@ import { TbCornerDownRight } from "react-icons/tb";
 
 const Team = () => {
     return (
-        <div className="overflow-hidden teamBody">
+        <div className="overflow-hidden teamBody lg:px-[-1350px] ">
 
-            <div className="container h-auto w-auto bg-[#000116] flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8">
+            <div className="container  bg-[#000116]  lg:w-[3000px] lg:ml-60  flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8">
 
                 <div className="bg-[#18203A] w-full max-w-[1280px] rounded-lg p-6 mt-10 flex items-center">
                     <TbCornerDownRight className="font-bold text-white" />

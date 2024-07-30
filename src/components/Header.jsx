@@ -48,20 +48,22 @@ export default function Header() {
    
         {/* Desktop Menu */}
         <ul className="hidden gap-10 fixed w-[1081px]   h-[65px] left-[501px] z-50 text-2xl mt-8 ml-96 bg-[#FFFFFF] p-4 text-[#797979] pl-[3%] md:flex rounded-full">
-  <li className="cursor-pointer hover:text-[#000000]"><div>Home</div>
-  </li>
+ <a href='/'><li className="cursor-pointer hover:text-[#000000]"><div>Home</div>
+  </li></a>
   <li className="relative cursor-pointer  transition-all duration-700 hover:text-[#000000]" onMouseEnter={() => toggleDropdown(true)}
   onMouseLeave={() => closeDropdown(false)}>
         <div>Services</div>
         {/* Dropdown menu for Home */}
         <div className={`absolute left-0 mt-0  mx-5  text-center bg-white border-gray-300 rounded-md shadow-md ${isDropdownOpen ? 'block' : 'hidden'}`}>
+      
           <a href="/web" className='block px-24 py-2 text-black hover:bg-gray-200'>Web Devlopment</a>
           <a href="#" className='block px-4 py-2 text-black hover:bg-gray-200'>App Devlopment</a>
           <a href="#" className='block px-4 py-2 text-black hover:bg-gray-200'>Software Devlopment</a>
           <a href="#" className='block px-4 py-2 text-black hover:bg-gray-200'>Game Devlopment</a>
           <a href="#" className='block px-4 py-2 text-black hover:bg-gray-200'>Digital Marketing</a>
           <a href="#" className='block px-4 py-2 text-black hover:bg-gray-200'>UI/UX Design</a>
-        </div>
+          </div>
+     
       </li>
   <li className="cursor-pointer hover:text-[#000000]">About</li>
   <li className="realative cursor-pointer  transition-all duration-700 hover:text-[#000000]" onMouseEnter={() => toggleDropdown2nd(true)}
@@ -81,7 +83,7 @@ export default function Header() {
 </ul>
         {/* Responsive Menu */}
         <ul className={`duration-300 text-xl md:hidden mt-[30px] z-30 w-full h-screen text-white fixed bg-black top-[92px] ${toggle ? 'left-0' : 'left-[-100%]'} `}>
-  <li className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline">Home</li>
+  <a href='/' alt="" className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline">Home</a>
   <li className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline">Services</li>
   <li className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline">About</li>
   <li className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline">Policy</li>

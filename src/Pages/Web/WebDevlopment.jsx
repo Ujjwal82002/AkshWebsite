@@ -1,9 +1,11 @@
-import Part1 from "./Part1";
+
+import Part from "./Part";
+
 
 export default function WebDevlopment () {
   return (
-    <>
-      <Part1 />
+    <>  
+   <Part />
     </>
   )
 }
