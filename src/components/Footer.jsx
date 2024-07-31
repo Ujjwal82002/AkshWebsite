@@ -12,13 +12,13 @@ import copyright from "../assets/akshtech images/copyright.svg";
 const Footer = () => {
   return (
     <>
-      <div className="flex flex-col overflow-hidden lg:mb-[-85px] bg-[#000116]  justify-between w-[98%] lg:h-[551px] mt-5 p-10 lg:p-20 ml-0 lg:ml-5 rounded-t-[56px]">
+      <div className="flex flex-col overflow-hidden lg:mb-[-85px] bg-[#000116]  justify-between w-[98%] lg:h-[550px] mt-5 p-10 lg:p-20 ml-0 lg:ml-5 rounded-t-[56px]">
         <div className="flex flex-col justify-between overflow-hidden lg:flex-row">
           <div className="text-[#FFFFFF] mb-10 lg:mb-0">
             <div className="w-[337px] h-[29px]">
               <img src={aksh} alt="Aksh Technology" />
             </div>
-            <p className="mt-6 text-xl font-semibold">
+            <p className="mt-6 text-xl font-semibold line-clamp-3">
               Aksh Technology is your Email newsletter
               <br />
               Webflow template we can build

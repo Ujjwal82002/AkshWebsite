@@ -40,15 +40,15 @@ const ContactPopup = ({ isOpen, onClose }) => {
           <h2 className="mb-2 text-xl font-semibold md:text-2xl">Contact Us</h2>
           <div className="flex items-center space-x-4">
             <FaMapMarkerAlt className="text-lg text-blue-600 md:text-2xl" />
-            <p className="text-sm text-gray-700 md:text-base">123 Main St, Anytown, USA</p>
+            <p className="text-sm text-gray-800 md:text-base">1T-3 & T-4, A-88, sector 4, Noida, Uttar Pradesh, 202301</p>
           </div>
           <div className="flex items-center space-x-4">
             <FaPhone className="text-lg text-blue-600 md:text-2xl" />
-            <p className="text-sm text-gray-700 md:text-base">+1 (555) 123-4567</p>
+            <p className="text-sm text-gray-800 md:text-base">+91 9625510038</p>
           </div>
           <div className="flex items-center space-x-4">
             <FaEnvelope className="text-lg text-blue-600 md:text-2xl" />
-            <p className="text-sm text-gray-700 md:text-base">info@company.com</p>
+            <p className="text-sm text-gray-800 md:text-base">help@akshtechnology.com</p>
           </div>
         </div>
 
@@ -57,7 +57,7 @@ const ContactPopup = ({ isOpen, onClose }) => {
           <h2 className="mb-4 text-2xl font-semibold">Let's Connect</h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
-              <label className="block text-gray-700">Name</label>
+              <label className="block text-gray-800">Name</label>
               <input
                 type="text"
                 name="name"
@@ -68,7 +68,7 @@ const ContactPopup = ({ isOpen, onClose }) => {
               />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700">Email</label>
+              <label className="block text-gray-800">Email</label>
               <input
                 type="email"
                 name="email"
@@ -79,7 +79,7 @@ const ContactPopup = ({ isOpen, onClose }) => {
               />
             </div>
             <div className="mb-4">
-          <label className="block text-gray-700">Number</label>
+          <label className="block text-gray-800">Number</label>
              <input
                type="number"
                name="number"
@@ -90,7 +90,7 @@ const ContactPopup = ({ isOpen, onClose }) => {
             />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700">Message</label>
+              <label className="block text-gray-800">Message</label>
               <textarea
                 name="message"
                 value={formData.message}

@@ -17,6 +17,7 @@ export default function Header() {
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
+  
 
   // Function to close dropdown when clicking outside
   const closeDropdown = () => {
@@ -36,7 +37,7 @@ export default function Header() {
   };
 
   return (
-    <div className="bg-[#000116]">
+    <div className="bg-[#000116] ">
       <div className="flex items-center justify-between px-6 py-6 mx-auto md:px-16">
         <div className="w-[200px] ml:[-30px] lg:fixed lg:z-50  pt-2 lg:h-[65px]">
           <img
@@ -58,7 +59,7 @@ export default function Header() {
         )}
 
         {/* Desktop Menu */}
-        <ul className="hidden gap-7 fixed w-[900px]   h-[55px] left-[201px] z-50 text-xl mt-8 ml-96 bg-[#FFFFFF] p-3 text-[#797979] pl-[3%] md:flex rounded-full">
+        <ul className="hidden gap-9 fixed w-[900px]   h-[55px] left-[201px] z-50 text-xl mt-8 ml-96 bg-[#FFFFFF] p-3 text-[#797979] pl-[3%] md:flex rounded-full">
           <a href="/">
             <li className="cursor-pointer hover:text-[#000000]">
               <div>Home</div>
@@ -72,43 +73,43 @@ export default function Header() {
             <div>Services</div>
             {/* Dropdown menu for Home */}
             <div
-              className={`absolute left-0 mt-0  mx-5    text-center bg-white border-gray-300 rounded-md shadow-md ${
+              className={`absolute left-0 mt-0  mx-3 text-center bg-white border-gray-300 rounded-md shadow-md ${
                 isDropdownOpen ? "block" : "hidden"
               }`}
             >
               <a
                 href="/web"
-                className="block px-24 py-2 text-black hover:bg-gray-200"
+                className="block px-10 py-2 text-lg text-black hover:bg-gray-500"
               >
-                Web Devlopment
+                WebDevlopment
               </a>
               <a
                 href="#"
-                className="block px-4 py-2 text-black hover:bg-gray-200"
+                className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
               >
                 App Devlopment
               </a>
               <a
                 href="#"
-                className="block px-4 py-2 text-black hover:bg-gray-200"
+                className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
               >
                 Software Devlopment
               </a>
               <a
                 href="#"
-                className="block px-4 py-2 text-black hover:bg-gray-200"
+                className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
               >
                 Game Devlopment
               </a>
               <a
                 href="#"
-                className="block px-4 py-2 text-black hover:bg-gray-200"
+                className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
               >
                 Digital Marketing
               </a>
               <a
                 href="#"
-                className="block px-4 py-2 text-black hover:bg-gray-200"
+                className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
               >
                 UI/UX Design
               </a>
@@ -129,13 +130,13 @@ export default function Header() {
             >
               <a
                 href="#"
-                className="block px-4 py-2 text-black hover:bg-gray-200"
+                className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
               >
                 Privacy Policy
               </a>
               <a
                 href="#"
-                className="block px-4 py-2 text-black hover:bg-gray-200"
+                className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
               >
                 Terms & Conditions
               </a>
@@ -161,7 +162,7 @@ export default function Header() {
           <a
             href="/"
             alt=""
-            className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline"
+            className="cursor-pointer p-5  hover:text-[#ffffff] hover:underline"
           >
             Home
           </a>

@@ -18,8 +18,8 @@ export default function Banner() {
     autoplaySpeed: 1500, // Adjust autoplay speed in milliseconds
   };
   return (
-    <div className="bg-[#2699fb] w-[100%] lg:mt-[-140px] mt-[-90px]">
-      <div className="max-w-[1540px] overflow-hidden  my-[90px]   mx-auto text-center font-bold">
+    <div className="w-[100%] lg:mt-[-140px] mt-[-90px]">
+      <div className="max-w-[1540px] overflow-hidden  my-[80px]   mx-auto text-center font-bold">
         <Slider {...settings}>
           <div>
             <img src={Banner1} alt="slide1" />

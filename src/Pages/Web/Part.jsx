@@ -2,16 +2,16 @@ import Webimage from "..//..//assets/akshtech images/web.png";
 
 export default function Part() {
   return (
-    <div className="px-4 sm:px-8  lg:mt-[-50px] lg:px-[130px] bg-[#f687b3] py-8 lg:py-[140px]">
+    <div className="px-4 sm:px-8  lg:mt-[-50px] lg:px-[90px] bg-[#f687b3] py-8 lg:py-[130px]">
       <div>
-        <main className="p-4 sm:p-6 lg:p-8">
+        <main className="p-4 sm:p-6 lg:p-5">
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-10">
             <div className="text-center lg:text-left">
               <section className="p-4 lg:ml-16 lg:p-6">
                 <h2 className="mb-4 text-4xl font-medium sm:text-5xl md:text-6xl lg:text-gray-800">
                   Web Development
                 </h2>
-                <p className="text-base sm:text-lg  lg:w-[800px] w-full md:text-xl lg:text-xl font-normal mt-4 lg:mt-14 text-[#06040A]">
+                <p className="text-base sm:text-lg  lg:w-[700px] w-full md:text-xl lg:text-xl font-normal mt-4 lg:mt-14 text-[#06040A]">
                   Welcome to AKSH Technologys Web Design services! We craft
                   stunning, user- friendly websites tailored to your business
                   needs. Our designs are not just visually appealing but also

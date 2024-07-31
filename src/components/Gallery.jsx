@@ -1,8 +1,9 @@
 import Images1 from "../assets/akshtech images/AkshTeam.jpg";
-import Images2 from "../assets/akshtech images/groupic3.jpg";
+
 import Images3 from "../assets/akshtech images/1.jpg";
 import Images4 from "../assets/akshtech images/4.jpg";
 import Images5 from "../assets/akshtech images/groupic.jpg";
+import Intern from '../assets/akshtech images/Intern.png'
 
 const Gallery = () => {
   return (
@@ -24,7 +25,7 @@ const Gallery = () => {
           </div>
           <div className="w-full sm:w-1/3 h-[400px] sm:h-[500px] mt-2 sm:mt-0  overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105">
             <img
-              src={Images2}
+              src={Intern}
               alt="Gallery 2"
               className="w-full h-full transition-opacity duration-300 ease-in-out rounded-3xl hover:opacity-80"
             />

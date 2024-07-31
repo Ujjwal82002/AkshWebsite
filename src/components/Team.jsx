@@ -17,7 +17,7 @@ const Team = () => {
 
         <div className="moto w-full max-w-[1280px] flex flex-col lg:flex-row justify-between mt-5">
           <div className="para w-full lg:w-[547px] font-extrabold text-3xl mt-6">
-            <p className="text-4xl text-white">
+            <p className="text-3xl text-white">
               We are passionate about creating visually stunning and functional
               solutions that communicate effectively.
             </p>
