@@ -1,13 +1,15 @@
-import Banner from "./components/Banner";
-import Client from "./components/Client";
+// import Banner from "./components/Banner";
+// import Client from "./components/Client";
+// import Footer from "./components/Footer";
+// import Gallery from "./components/Gallery";
+// import Header from "./components/Header";
+// import CenteredContent from "./components/Main";
+// import MenuSection from "./components/MenuSection";
+// import Services from "./components/Services";
+// import Team from "./components/Team";
 
-import Gallery from "./components/Gallery";
-
-import CenteredContent from "./components/Main";
-import MenuSection from "./components/MenuSection";
-import Services from "./components/Services";
-import Team from "./components/Team";
-
+// import ServicesPage1 from "./components/ServicesPage1"
+import FAQPage from "./components/FAQPage";
 
 export default function Display() {
   return (
@@ -20,7 +22,9 @@ export default function Display() {
       <Gallery />
       <Team />
       <Client/>
-   
+      <Footer />
+      <ServicesPage1/> */}
+      <FAQPage/>
    </>
   )
 }
