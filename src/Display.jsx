@@ -8,8 +8,11 @@
 // import Services from "./components/Services";
 // import Team from "./components/Team";
 
+import ServicesPage2 from "./components/ServicesPage2";
+import ServicesPage3 from "./components/ServicesPage3";
+
 // import ServicesPage1 from "./components/ServicesPage1"
-import FAQPage from "./components/FAQPage";
+// import FAQPage from "./components/FAQPage";
 
 export default function Display() {
   return (
@@ -23,8 +26,10 @@ export default function Display() {
       <Team />
       <Client/>
       <Footer />
-      <ServicesPage1/> */}
-      <FAQPage/>
+      <ServicesPage1/>
+      <FAQPage/> */}
+      <ServicesPage2/>
+      <ServicesPage3/>
    </>
   )
 }
