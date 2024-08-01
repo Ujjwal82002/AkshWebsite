@@ -1,18 +1,16 @@
 
+import heart from "../../assets/akshtech images/heart.svg";
+import star from "../../assets/akshtech images/star.svg";
+import timer from "../../assets/akshtech images/timer.svg";
+import fileIcon from "../../assets/akshtech images/fileicon.svg";
+import folderIcon from "../../assets/akshtech images/foldericon.svg";
+import copy from "../../assets/akshtech images/copy.svg";
 
-
-
-import heart from "../assets/akshtech images/heart.svg";
-import star from "../assets/akshtech images/star.svg";
-import timer from "../assets/akshtech images/timer.svg";
-import fileIcon from "../assets/akshtech images/fileicon.svg";
-import folderIcon from "../assets/akshtech images/foldericon.svg";
-import copy from "../assets/akshtech images/copy.svg";
-
-const ServicesPage3 = () => {
+export default function GM3() {
   return (
-    <div className="flex flex-col m-8 lg:flex-row lg:m-32 lg:ml-44">
-      <div className="w-full lg:w-[518px] lg:h-[410.98px] mb-8 lg:mb-0">
+    <div  className="bg-[#00ffff]">
+    <div className="flex flex-col m-8 lg:mt-[-200px] lg:flex-row lg:m-32 lg:ml-44">
+      <div className="w-full lg:w-[518px] mt-7 lg:m-0 lg:h-[410.98px] mb-8 lg:mb-0">
         <h1 className="text-3xl font-bold lg:text-5xl">
           Design. Think.
         </h1>
@@ -22,7 +20,7 @@ const ServicesPage3 = () => {
         <p className="text-base lg:text-lg mt-4 lg:mt-4 px-0 lg:px-7 lg:-ml-7 lg:w-[482.93px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos saepe officiis expedita Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, incidunt!
         </p>
-        <button className="text-white bg-[#06040A] px-4 lg:px-6 py-2 rounded-3xl mt-5 font-bold">
+        <button className="text-white bg-[#06040A] px-4 lg:px-8 lg:py-4 py-2 rounded-full mt-5 font-bold">
           Get started
         </button>
       </div>
@@ -92,7 +90,6 @@ const ServicesPage3 = () => {
         </div>
       </div>
     </div>
+    </div>
   );
-};
-
-export default ServicesPage3;
+}
