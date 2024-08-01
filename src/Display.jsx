@@ -8,8 +8,12 @@
 // import Services from "./components/Services";
 // import Team from "./components/Team";
 
-import ServicesPage2 from "./components/ServicesPage2";
-import ServicesPage3 from "./components/ServicesPage3";
+// import Servicepage5 from "./Pages/ServicesPart/Servicepage5";
+// import Servicespage4 from "./Pages/ServicesPart/Servicespage4";
+
+// import ServicesPage2 from "./components/ServicesPage2";
+// import ServicesPage3 from "./components/ServicesPage3";
+import Clientlogo from "./Pages/ServicesPart/Clientlogo";
 
 // import ServicesPage1 from "./components/ServicesPage1"
 // import FAQPage from "./components/FAQPage";
@@ -28,8 +32,11 @@ export default function Display() {
       <Footer />
       <ServicesPage1/>
       <FAQPage/> */}
-      <ServicesPage2/>
-      <ServicesPage3/>
+      {/* <ServicesPage2/> */}
+      {/* <ServicesPage3/> */}
+      <Clientlogo/>
+      {/* <Servicespage4/> */}
+      {/* <Servicepage5/> */}
    </>
   )
 }
