@@ -2,8 +2,9 @@
 import contactus from "../../assets/akshtech images/contactus.svg";
 import servicepage4design from "../../assets/akshtech images/servicepage4design.svg";
 
-const Servicespage4 = () => {
+export default function GM5() {
   return (
+    <div  className="bg-[#00ffff]">
     <div className="flex items-center justify-center min-h-screen p-4 text-white">
       <div className="w-full max-w-6xl bg-[#000116] rounded-xl flex flex-col lg:flex-row justify-between items-center p-4 lg:p-10">
         <div className="flex flex-col items-center justify-center mt-10 lg:items-start lg:mt-0">
@@ -26,7 +27,8 @@ const Servicespage4 = () => {
         </div>
       </div>
     </div>
+    </div>
   );
-};
+}
 
-export default Servicespage4;
+

@@ -2,7 +2,11 @@ import Logo from "../assets/akshtech images/logo3.webp";
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Contact from "../Pages/ContactUs/Contact";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+
+function scrollToSection(id) {
+  document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+}
 
 export default function Header() {
   const [isPopupOpen, setPopupOpen] = useState(false);
@@ -33,7 +37,7 @@ export default function Header() {
   };
 
   return (
-    <div className="bg-[#000116] ">
+    <div className="bg-[#000116]">
       <div className="flex items-center justify-between px-6 py-6 mx-auto md:px-16">
         <div className="w-[200px] ml:[-30px] lg:fixed lg:z-50 pt-2 lg:h-[65px]">
           <img
@@ -92,9 +96,9 @@ export default function Header() {
               </Link>
             </div>
           </li>
-          <Link to="/about">
-            <li className="cursor-pointer hover:text-[#000000]">About</li>
-          </Link>
+          <NavLink to="#about" onClick={() => scrollToSection('about')} className="cursor-pointer hover:text-[#000000]">
+            About
+          </NavLink>
           <li
             className="relative cursor-pointer transition-all duration-700 hover:text-[#000000]"
             onMouseEnter={() => toggleDropdown2nd(true)}
@@ -114,15 +118,15 @@ export default function Header() {
               </Link>
             </div>
           </li>
-          <Link to="/gallery">
-            <li className="cursor-pointer hover:text-[#000000]">Gallery</li>
-          </Link>
-          <Link to="/team">
-            <li className="cursor-pointer hover:text-[#000000]">Team</li>
-          </Link>
-          <Link to="/testimonials">
-            <li className="cursor-pointer hover:text-[#000000]">Testimonials</li>
-          </Link>
+          <NavLink to="#gallery" onClick={() => scrollToSection('gallery')} className="cursor-pointer hover:text-[#000000]">
+            Gallery
+          </NavLink>
+          <NavLink to="#team" onClick={() => scrollToSection('team')} className="cursor-pointer hover:text-[#000000]">
+            Team
+          </NavLink>
+          <NavLink to="#testimonial" onClick={() => scrollToSection('testimonial')} className="cursor-pointer hover:text-[#000000]">
+            Testimonials
+          </NavLink>
           <li onClick={openPopup} className="cursor-pointer hover:text-[#000000]">
             Contact Us
           </li>
@@ -132,7 +136,7 @@ export default function Header() {
         <ul
           className={`duration-300 text-xl md:hidden mt-[30px] z-30 w-full h-screen text-white fixed bg-black top-[92px] ${
             toggle ? "left-0" : "left-[-100%]"
-          } `}
+          }`}
         >
           <Link to="/" className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline">
             Home

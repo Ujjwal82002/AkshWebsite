@@ -12,6 +12,7 @@ import copyright from "../assets/akshtech images/copyright.svg";
 const Footer = () => {
   return (
     <>
+    <div className="bg-[#00ffff] mt-[-20px]">
       <div className="flex flex-col overflow-hidden lg:mb-[-85px] bg-[#000116]  justify-between w-[98%] lg:h-[550px] mt-5 p-10 lg:p-20 ml-0 lg:ml-5 rounded-t-[56px]">
         <div className="flex flex-col justify-between overflow-hidden lg:flex-row">
           <div className="text-[#FFFFFF] mb-10 lg:mb-0">
@@ -97,6 +98,7 @@ const Footer = () => {
 
       <div className="flex justify-center mt-5 text-white">
         <img src={copyright} alt="Copyright" />
+      </div>
       </div>
     </>
   );

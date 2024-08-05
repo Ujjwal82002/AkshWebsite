@@ -1,35 +1,4 @@
-// import xdwxs from "../../assets/akshtech images/xdwxs.svg";
 
-// export default function UI1() {
-//   return (
-//     <div className="flex items-center lg:mt-[-50px] bg-[#00ffff] justify-center min-h-screen p-8 my-16 mainContainer md:p-20">
-//       <div className="flex flex-col justify-between w-full max-w-5xl md:flex-row">
-//         <div className="flex flex-col items-center md:items-start md:mt-32">
-//           <div className="w-full max-w-xs md:max-w-none">
-//             <p className="text-4xl font-bold text-center md:text-6xl md:text-left">
-//               We are here to <br /> guide and <br /> help you at all <br /> times
-//             </p>
-//           </div>
-//           <div className="flex flex-col items-center mt-8 md:flex-row md:items-start md:mt-12">
-//             <div className="w-0 h-0 border-r-0 border-black md:h-30 md:border-r-4"></div>
-//             <div className="mt-4 ml-0 text-center md:ml-12 md:mt-0 md:text-left">
-//               <p className="w-full max-w-xs text-lg font-medium md:max-w-md md:text-xl">
-//                 A good design is not only aesthetically pleasing, but also
-//                 functional. It should be able to solve the problem.
-//               </p>
-//               <button className="bg-[#06040A] mt-4 md:mt-8 w-40 h-12 rounded-full text-white font-bold">
-//                 Contact Us
-//               </button>
-//             </div>
-//           </div>
-//         </div>
-//         <div className="w-full max-w-xs mt-8 md:max-w-lg md:mt-0">
-//           <img className="w-full h-auto" src={xdwxs} alt="xdwxs" />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
 
 import xdwxs from "../../assets/akshtech images/xdwxs.svg";
 
@@ -41,10 +10,10 @@ export default function UI1() {
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-10">
           <div className="text-center lg:text-left">
             <section className="p-4 lg:mt-[-150px] lg:px-6">
-              <h2 className="lg:ml-[-60px] text-4xl font-bold sm:text-5xl md:text-6xl lg:p-28 lg:text-6xl">
+              <h2 className="lg:ml-[-60px] text-4xl font-display sm:text-5xl md:text-6xl lg:p-28 lg:text-6xl">
               We're here to guide and
               </h2>
-              <h2 className="text-4xl lg:mt-[-180px]  font-bold lg:px-24 lg:py-20 sm:text-5xl md:text-6xl lg:text-6xl lg:ml-[-40px]">
+              <h2 className="text-4xl lg:mt-[-180px]  font-display lg:px-24 lg:py-20 sm:text-5xl md:text-6xl lg:text-6xl lg:ml-[-40px]">
               help you at all times
               </h2>
               <p className="text-base lg:ml-24 sm:text-lg md:text-xl lg:text-xl lg:font-normal font-serif mt-4 lg:mt-[-30px] text-[#06040A]">
@@ -59,7 +28,7 @@ export default function UI1() {
             <img
               src={xdwxs}
               alt=""
-              className="w-full max-w-xs h-[110%] sm:max-w-sm md:max-w-md lg:max-w-[80%] lg:mt-[-60px] -mt-10 transition-opacity duration-300 ease-in-out rounded-3xl hover:opacity-80"
+              className="w-full max-w-xs h-[110%] sm:max-w-sm md:max-w-md lg:max-w-[90%] lg:mt-[-60px] -mt-10 transition-opacity duration-300 ease-in-out rounded-3xl hover:opacity-80"
             />
           </div>
         </div>

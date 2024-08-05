@@ -9,8 +9,8 @@ import copy from "../../assets/akshtech images/copy.svg";
 export default function DT3() {
   return (
     <div  className="bg-[#00ffff]">
-    <div className="flex flex-col m-8 lg:mt-[-200px] lg:flex-row lg:m-32 lg:ml-44">
-      <div className="w-full lg:w-[518px] mt-7 lg:m-0 lg:mt[-80px] lg:h-[410.98px] mb-8 lg:mb-0">
+    <div className="flex flex-col m-8 overflow-hidden lg:mt-[-200px] lg:flex-row lg:m-32 lg:ml-44">
+      <div className="w-full  mt-7 lg:m-0 lg:mt[-80px] lg:h-[410.98px] mb-8 lg:mb-0">
         <h1 className="text-3xl font-bold lg:text-5xl">
           Design. Think.
         </h1>
@@ -25,7 +25,7 @@ export default function DT3() {
         </button>
       </div>
 
-      <div className="w-full lg:w-[650px] h-auto flex flex-wrap lg:flex-nowrap">
+      <div className="w-full lg:w-[650px] h-auto lg:ml-[-60px] flex flex-wrap lg:flex-nowrap">
         <div className="w-full lg:w-[310.24px]">
           <div className="flex h-auto mb-8">
             <img className="mr-3" src={heart} alt="" />

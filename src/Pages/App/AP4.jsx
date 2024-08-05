@@ -4,8 +4,9 @@ import img2 from '../../assets/akshtech images/Rectangle 40.png';
 import img3 from '../../assets/akshtech images/Rectangle 41.png';
 import img4 from '../../assets/akshtech images/Rectangle 42.png';
 
-const Servicepage5 = () => {
+export default function AP4() {
   return (
+    <div className="bg-[#00ffff] mt-[-65px] lg:mt-[-130px]">
     <div className='flex justify-center mt-16'>
       <div className='flex flex-wrap w-full max-w-6xl'>
         <div className='w-full p-2 sm:w-1/2 lg:w-1/4'>
@@ -42,7 +43,8 @@ const Servicepage5 = () => {
         </div>
       </div>
     </div>
+    </div>
   );
-};
+}
 
-export default Servicepage5;
+

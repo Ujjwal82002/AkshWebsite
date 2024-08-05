@@ -8,9 +8,9 @@ import copy from "../../assets/akshtech images/copy.svg";
 
 export default function AP3() {
   return (
-    <div  className="bg-[#00ffff]">
+    <div  className="bg-[#00ffff] ">
     <div className="flex flex-col m-8 mt-[0px]  lg:mt-[-230px] lg:flex-row lg:m-32 lg:ml-44">
-      <div className="w-full lg:w-[518px] mt-7 lg:m-0 lg:h-[410.98px] mb-8 lg:mb-0">
+      <div className="w-full  mt-7 lg:m-0 lg:h-[410.98px] mb-8 lg:mb-0">
         <h1 className="text-3xl font-bold lg:text-5xl">
           Design. Think.
         </h1>
