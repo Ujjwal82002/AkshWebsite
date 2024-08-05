@@ -1,4 +1,3 @@
-
 import contactus from "../../assets/akshtech images/contactus.svg";
 import servicepage4design from "../../assets/akshtech images/servicepage4design.svg";
 
@@ -22,11 +21,13 @@ export default function AP5() {
           </button>
         </div>
         <div className="mt-10 lg:mt-0">
-          <img src={servicepage4design} alt="servicepage4design" className="w-full lg:w-auto" />
+          <img
+            src={servicepage4design}
+            alt="servicepage4design"
+            className="w-full lg:w-auto"
+          />
         </div>
       </div>
     </div>
   );
 }
-
-

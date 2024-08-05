@@ -1,8 +1,7 @@
-
-import Word from '../assets/akshtech images/wordpress.jpg';
-import Cart from '../assets/akshtech images/cart.jpeg';
-import Cloud from '../assets/akshtech images/cloud.png';
-import Game from '../assets/akshtech images/play.jpeg';
+import Word from "../assets/akshtech images/wordpress.jpg";
+import Cart from "../assets/akshtech images/cart.jpeg";
+import Cloud from "../assets/akshtech images/cloud.png";
+import Game from "../assets/akshtech images/play.jpeg";
 
 const services = [
   { img: Word, text: "Alex raises $8.4M to bring DeFi to the..." },
@@ -18,7 +17,7 @@ const services = [
 export default function Services() {
   return (
     <div className="bg-[#000116] max-w-[2240px] w-full pt-[40px] pb-[90px]  rounded-b-3xl mt-[-90px] px-0 space-y-3">
-      <div className="lg:ml-[40%] ml-5 text-white text-4xl md:text-7xl font-normal mb-16 lg:mb-24 md:pt-[-44px]">
+      <div className="lg:ml-[40%] ml-5 text-white text-4xl md:text-7xl font-display mb-16 lg:mb-24 md:pt-[-44px]">
         <h1>Our Services</h1>
       </div>
       <div className="grid grid-cols-1 gap-5 mx-2 lg:mx-40 lg:gap-9 md:grid-cols-3 lg:grid-cols-4 max-w-7xl">

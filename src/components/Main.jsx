@@ -1,11 +1,9 @@
-
-
 const CenteredContent = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center pt-5 pb-16 mx-4 sm:mx-8 lg:mx-32">
         <div className="text-center">
-          <h1 className="mb-10 text-4xl font-medium text-gray-900 sm:text-5xl md:text-6xl lg:text-7xl">
+          <h1 className="mb-10 text-4xl text-gray-900 font-display sm:text-5xl md:text-6xl lg:text-7xl">
             Find the project you love
           </h1>
           <p className="text-2xl font-normal text-gray-700 lg:w-[750px] sm:text-xl md:text-2xl sm:mx-8">

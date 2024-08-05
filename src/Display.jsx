@@ -9,25 +9,27 @@ import MenuSection from "./components/MenuSection";
 import Services from "./components/Services";
 import Team from "./components/Team";
 
-
-
-
 export default function Display() {
   return (
-   <>
-   
-      <Banner />
-     <div id="about"> <About /></div>
-    <Services />
-     <MenuSection />
-    <CenteredContent />
-     <div id="gallery"><Gallery /></div>
-     <div id="team"><Team /></div>
-     <div id="testimonial"><Client/></div>
-
-   
-     
-
-   </>
-  )
+    <>
+      <div id="home">
+        <Banner />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <Services />
+      <MenuSection />
+      <CenteredContent />
+      <div id="gallery">
+        <Gallery />
+      </div>
+      <div id="team">
+        <Team />
+      </div>
+      <div id="testimonial">
+        <Client />
+      </div>
+    </>
+  );
 }

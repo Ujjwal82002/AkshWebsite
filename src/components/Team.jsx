@@ -11,12 +11,12 @@ const Team = () => {
     <div className="overflow-hidden teamBody bg-[#000116] lg:mr-4 ">
       <div className="container  bg-[#000116]  lg:w-[1240px] lg:ml-32  flex flex-col justify-center items-center px-4 sm:px-6 lg:px-3">
         <div className="bg-[#18203A] w-full max-w-[1380px] rounded-lg p-6 mt-10 flex items-center">
-          <TbCornerDownRight className="font-bold text-white" />
-          <p className="ml-2 font-bold text-white">Our Team</p>
+          <TbCornerDownRight className="text-white font-display" />
+          <p className="ml-2 text-white font-display">Our Team</p>
         </div>
 
         <div className="moto w-full max-w-[1280px] flex flex-col lg:flex-row justify-between mt-5">
-          <div className="para w-full lg:w-[547px] font-extrabold text-3xl mt-6">
+          <div className="para w-full lg:w-[547px] font-display text-3xl mt-6">
             <p className="text-3xl text-white">
               We are passionate about creating visually stunning and functional
               solutions that communicate effectively.
@@ -48,7 +48,7 @@ const Team = () => {
         </div>
 
         <div className="w-full max-w-[1280px]">
-          <button className="w-full h-[50px] bg-[#B7EFF6] mb-10 mt-5 p-4 font-bold text-black rounded-xl">
+          <button className="w-full h-[50px] bg-[#B7EFF6] mb-10 mt-5 p-4 font-display text-black rounded-xl">
             See All members
           </button>
         </div>
