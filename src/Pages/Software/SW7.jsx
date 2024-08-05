@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-function Clientlogo() {
+ export default function SW7() {
   const settings = {
     dots: true,
     infinite: true,
@@ -36,15 +36,16 @@ function Clientlogo() {
     ],
   };
   return (
+    <div  className="bg-[#00ffff]">
     <div className="mt-4">
-      <div className="flex flex-col items-center justify-center w-screen h-auto p-10 mt-10">
-        <div className="w-[368px] h-[58px] bg-[#dacaca] flex justify-center items-center rounded-xl">
+      <div className="flex flex-col items-center justify-center h-auto p-10 mt-[-20px] ">
+        <div className="w-[368px] h-[58px] bg-[#dacaca] flex justify-center  items-center rounded-xl">
           <h1 className="text-2xl font-bold">We Have Worked With</h1>
         </div>
       </div>
-      <Slider {...settings}>
-        <div className="">
-          <img src={jaslogo} alt="Ashley" className="mx-auto mt-10" />
+      <Slider {...settings} className="lg:mx-[5%]">
+        <div className="py-16">
+          <img src={jaslogo} alt="Ashley" className="mx-auto mt-[-30px]" />
         </div>
 
         <div className="">
@@ -56,7 +57,8 @@ function Clientlogo() {
         </div>
       </Slider>
     </div>
+    </div>
   );
 }
 
-export default Clientlogo;
+

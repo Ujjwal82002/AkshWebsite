@@ -10,14 +10,19 @@ import GameDevlopment from "./Pages/Game/GameDevlopment";
 import Digital from "./Pages/Digital/Digital";
 import AppDevlopment from "./Pages/App/AppDevlopment";
 
+import PrivacyPolicy1 from "./Pages/Privacy/PrivacyPolicy1";
+import PrivacyPolicy2 from "./Pages/Privacy/PrivacyPolicy2";
+
+
 
 
 
 export default function App() {
   return (
     <>
-    <Header />
+    
    <BrowserRouter>
+   <Header />
     <Routes>
       <Route path="/" element={<Display />}/>
       <Route path="/web" element={<WebDevlopment />}/>
@@ -26,10 +31,14 @@ export default function App() {
      <Route path="/gm" element={<GameDevlopment />}/>
      <Route path="/dt" element={<Digital />}/>
      <Route path="/ap" element={<AppDevlopment />}/>
+     <Route path="/pr1" element={<PrivacyPolicy1 />}/>
+     <Route path="/pr2" element={<PrivacyPolicy2 />}/>
+   
      
     </Routes>
+    <Footer />
    </BrowserRouter>
-   <Footer />
+ 
 </>
   )
 

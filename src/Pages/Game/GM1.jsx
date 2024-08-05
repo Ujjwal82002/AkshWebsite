@@ -26,7 +26,7 @@ export default function GM1() {
             <img
               src={Game}
               alt=""
-              className="w-full max-w-xs h-[110%] sm:max-w-sm md:max-w-md lg:max-w-[80%] lg:mt-[-60px] -mt-10 transition-opacity duration-300 ease-in-out rounded-3xl hover:opacity-80"
+              className="w-full max-w-xs h-[110%] sm:max-w-sm md:max-w-md lg:max-w-[90%] lg:mt-[-60px] -mt-10 transition-opacity duration-300 ease-in-out rounded-3xl hover:opacity-80"
             />
           </div>
         </div>

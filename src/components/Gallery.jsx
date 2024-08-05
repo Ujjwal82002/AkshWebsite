@@ -57,7 +57,7 @@ const Gallery = () => {
         </div>
         
         <div className="w-full max-w-[1280px]">
-          <button className="w-full h-[50px] bg-[#235678] mb-5  p-4 ml-28 font-bold text-white rounded-xl">
+          <button className="w-full lg:h-[50px] bg-[#235678] mb-7  lg:my-[-50px]  p-4 lg:ml-28 font-bold text-white rounded-xl">
             See All Pictures
           </button>
         </div>
