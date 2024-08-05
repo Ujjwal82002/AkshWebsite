@@ -2,11 +2,11 @@ import Logo from "../assets/akshtech images/logo3.webp";
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Contact from "../Pages/ContactUs/Contact";
-import { Link, NavLink } from "react-router-dom";
 
-function scrollToSection(id) {
-  document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-}
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+
+
 
 export default function Header() {
   const [isPopupOpen, setPopupOpen] = useState(false);
@@ -59,12 +59,15 @@ export default function Header() {
         )}
 
         {/* Desktop Menu */}
-        <ul className="hidden gap-9 fixed w-[900px] h-[55px] left-[201px] z-50 text-xl mt-8 ml-96 bg-[#FFFFFF] p-3 text-[#797979] pl-[3%] md:flex rounded-full">
-          <Link to="/">
+
+        <ul className="hidden gap-9 fixed w-[900px]   h-[55px] left-[201px] z-50 text-xl mt-8 ml-96 bg-[#FFFFFF] p-3 text-[#797979] pl-[3%] md:flex rounded-full">
+          <HashLink to="/#home">
+
+       
             <li className="cursor-pointer hover:text-[#000000]">
               <div>Home</div>
             </li>
-          </Link>
+          </HashLink>
           <li
             className="relative cursor-pointer transition-all duration-700 hover:text-[#000000]"
             onMouseEnter={() => toggleDropdown(true)}
@@ -76,29 +79,54 @@ export default function Header() {
                 isDropdownOpen ? "block" : "hidden"
               }`}
             >
-              <Link to="/web" className="block px-10 py-2 text-lg text-black hover:bg-gray-500">
-                Web Development
+
+              <Link
+                to="/web"
+                className="block px-10 py-2 text-lg text-black hover:bg-gray-500"
+              >
+                WebDevlopment
               </Link>
-              <Link to="/ap" className="block px-4 py-2 text-lg text-black hover:bg-gray-500">
-                App Development
+              <Link
+                to="/ap"
+                className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
+              >
+                App Devlopment
               </Link>
-              <Link to="/sw" className="block px-4 py-2 text-lg text-black hover:bg-gray-500">
-                Software Development
+              <Link
+                to="/sw"
+                className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
+              >
+                Software Devlopment
               </Link>
-              <Link to="/gm" className="block px-4 py-2 text-lg text-black hover:bg-gray-500">
-                Game Development
+              <Link
+                to="/gm"
+                className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
+              >
+                Game Devlopment
               </Link>
-              <Link to="/dt" className="block px-4 py-2 text-lg text-black hover:bg-gray-500">
+              <Link
+                to="/dt"
+                className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
+              >
                 Digital Marketing
               </Link>
-              <Link to="/ui" className="block px-4 py-2 text-lg text-black hover:bg-gray-500">
+              <Link
+                to="/ui"
+                className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
+              >
+
                 UI/UX Design
               </Link>
             </div>
           </li>
-          <NavLink to="#about" onClick={() => scrollToSection('about')} className="cursor-pointer hover:text-[#000000]">
+
+          <HashLink
+            to="/#about"
+            className="cursor-pointer hover:text-[#000000]"
+          >
             About
-          </NavLink>
+          </HashLink>
+
           <li
             className="relative cursor-pointer transition-all duration-700 hover:text-[#000000]"
             onMouseEnter={() => toggleDropdown2nd(true)}
@@ -110,24 +138,47 @@ export default function Header() {
                 open ? "block" : "hidden"
               }`}
             >
-              <Link to="/privacy-policy" className="block px-4 py-2 text-lg text-black hover:bg-gray-500">
+
+              <Link
+                to="/pr1"
+                className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
+              >
                 Privacy Policy
               </Link>
-              <Link to="/terms-conditions" className="block px-4 py-2 text-lg text-black hover:bg-gray-500">
+              <Link
+                to="/pr2"
+                className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
+              >
+
                 Terms & Conditions
               </Link>
             </div>
           </li>
-          <NavLink to="#gallery" onClick={() => scrollToSection('gallery')} className="cursor-pointer hover:text-[#000000]">
+
+          <HashLink
+            to="/#gallery"
+            className="cursor-pointer hover:text-[#000000] "
+          >
             Gallery
-          </NavLink>
-          <NavLink to="#team" onClick={() => scrollToSection('team')} className="cursor-pointer hover:text-[#000000]">
+          </HashLink>
+          <HashLink
+            to="/#team"
+            className="cursor-pointer hover:text-[#000000] "
+          >
             Team
-          </NavLink>
-          <NavLink to="#testimonial" onClick={() => scrollToSection('testimonial')} className="cursor-pointer hover:text-[#000000]">
+          </HashLink>
+          <HashLink
+            to="/#testimonial"
+            className="cursor-pointer hover:text-[#000000] "
+          >
             Testimonials
-          </NavLink>
-          <li onClick={openPopup} className="cursor-pointer hover:text-[#000000]">
+          </HashLink>
+          <li
+            onClick={openPopup}
+            className="cursor-pointer hover:text-[#000000] "
+          >
+
+
             Contact Us
           </li>
         </ul>
@@ -138,28 +189,119 @@ export default function Header() {
             toggle ? "left-0" : "left-[-100%]"
           }`}
         >
-          <Link to="/" className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline">
+
+          <Link
+            to="/"
+            alt=""
+            className="cursor-pointer p-5  hover:text-[#ffffff] hover:underline"
+          >
             Home
           </Link>
-          <li className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline">Services</li>
-          <Link to="/about" className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline">
-            About
+          <Link to="">
+            <li
+              className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline"
+              onMouseEnter={() => toggleDropdown(true)}
+              onMouseLeave={() => closeDropdown(false)}
+            >
+              <div>Services</div>
+              <div
+                className={`absolute left-0 mt-0  mx-3 text-center rounded-lg bg-white border-gray-300  shadow-md ${
+                  isDropdownOpen ? "block" : "hidden"
+                }`}
+              >
+                <Link
+                  to="/web"
+                  className="block px-10 py-2 text-lg text-black hover:bg-gray-500"
+                >
+                  WebDevlopment
+                </Link>
+                <Link
+                  to="/ap"
+                  className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
+                >
+                  App Devlopment
+                </Link>
+                <Link
+                  to="/sw"
+                  className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
+                >
+                  Software Devlopment
+                </Link>
+                <Link
+                  to="/gm"
+                  className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
+                >
+                  Game Devlopment
+                </Link>
+                <Link
+                  to="/dt"
+                  className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
+                >
+                  Digital Marketing
+                </Link>
+                <Link
+                  to="/ui"
+                  className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
+                >
+                  UI/UX Design
+                </Link>
+              </div>
+            </li>
           </Link>
-          <Link to="/privacy-policy" className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline">
-            Policy
+          <Link to="/about">
+            <li className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline">
+              About
+            </li>
           </Link>
-          <Link to="/gallery" className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline">
-            Gallery
+          <Link to="">
+            <li
+              className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline"
+              onMouseEnter={() => toggleDropdown2nd(true)}
+              onMouseLeave={() => closeDropdown2nd(false)}
+            >
+              <div>Policy</div>
+              <div
+                className={`absolute left-0 mt-2  rounded-lg   text-center bg-white border-gray-300  shadow-md ${
+                  open ? "block" : "hidden"
+                }`}
+              >
+                <Link
+                  to="/pr1"
+                  className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
+                >
+                  Privacy Policy
+                </Link>
+                <Link
+                  to="/pr2"
+                  className="block px-4 py-2 text-lg text-black hover:bg-gray-500"
+                >
+                  Terms & Conditions
+                </Link>
+              </div>
+            </li>
           </Link>
-          <Link to="/team" className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline">
-            Team
+          <Link to="/gallery">
+            <li className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline">
+              Gallery
+            </li>
           </Link>
-          <Link to="/testimonials" className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline">
-            Testimonials
+          <Link to="/team">
+            <li className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline">
+              Team
+            </li>
           </Link>
-          <li className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline" onClick={openPopup}>
-            Contact Us
-          </li>
+          <Link to="/testimonial">
+            <li className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline">
+              Testimonials
+            </li>
+          </Link>
+          <Link to="/contact">
+            <li className="cursor-pointer p-5 hover:text-[#ffffff] hover:underline">
+              Contact Us
+            </li>
+          </Link>
+
+        
         </ul>
       </div>
     </div>

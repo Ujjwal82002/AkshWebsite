@@ -1,13 +1,12 @@
-
-import  { useState } from 'react';
-import Swal from 'sweetalert2';
-import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import { useState } from "react";
+import Swal from "sweetalert2";
+import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 const ContactPopup = ({ isOpen, onClose }) => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
 
   if (!isOpen) return null;
@@ -23,13 +22,13 @@ const ContactPopup = ({ isOpen, onClose }) => {
     onClose();
     // Display SweetAlert2 popup
     await Swal.fire({
-      icon: 'success',
-      title: 'Thank You!',
-      text: 'Your message has been sent successfully.',
-      confirmButtonText: 'OK',
+      icon: "success",
+      title: "Thank You!",
+      text: "Your message has been sent successfully.",
+      confirmButtonText: "OK",
     });
     // Optionally reset form data
-    setFormData({ name: '', email: '', message: '' ,number:'' });
+    setFormData({ name: "", email: "", message: "", number: "" });
   };
 
   return (
@@ -40,7 +39,9 @@ const ContactPopup = ({ isOpen, onClose }) => {
           <h2 className="mb-2 text-xl font-display md:text-2xl">Contact Us</h2>
           <div className="flex items-center space-x-4">
             <FaMapMarkerAlt className="text-lg text-blue-600 md:text-2xl" />
-            <p className="text-sm text-gray-800 md:text-base">1T-3 & T-4, A-88, sector 4, Noida, Uttar Pradesh, 202301</p>
+            <p className="text-sm text-gray-800 md:text-base">
+              1T-3 & T-4, A-88, sector 4, Noida, Uttar Pradesh, 202301
+            </p>
           </div>
           <div className="flex items-center space-x-4">
             <FaPhone className="text-lg text-blue-600 md:text-2xl" />
@@ -48,7 +49,9 @@ const ContactPopup = ({ isOpen, onClose }) => {
           </div>
           <div className="flex items-center space-x-4">
             <FaEnvelope className="text-lg text-blue-600 md:text-2xl" />
-            <p className="text-sm text-gray-800 md:text-base">help@akshtechnology.com</p>
+            <p className="text-sm text-gray-800 md:text-base">
+              help@akshtechnology.com
+            </p>
           </div>
         </div>
 
@@ -79,15 +82,15 @@ const ContactPopup = ({ isOpen, onClose }) => {
               />
             </div>
             <div className="mb-4">
-          <label className="block text-gray-800">Number</label>
-             <input
-               type="number"
-               name="number"
-               value={formData.number}
-               onChange={handleChange}
-             className="w-full px-3 py-2 border border-gray-300 rounded"
-              required
-            />
+              <label className="block text-gray-800">Number</label>
+              <input
+                type="number"
+                name="number"
+                value={formData.number}
+                onChange={handleChange}
+                className="w-full px-3 py-2 border border-gray-300 rounded"
+                required
+              />
             </div>
             <div className="mb-4">
               <label className="block text-gray-800">Message</label>

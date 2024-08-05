@@ -1,6 +1,5 @@
-
-import Mob3 from '../assets/akshtech images/Mob3.svg';
-import Card from './Card';
+import Mob3 from "../assets/akshtech images/Mob3.svg";
+import Card from "./Card";
 
 export default function MenuSection() {
   const cardData = [
@@ -33,10 +32,10 @@ export default function MenuSection() {
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-10">
             <div className="text-center lg:text-left">
               <section className="p-4 lg:p-6">
-                <h2 className="mb-4 text-4xl font-medium sm:text-5xl md:text-6xl lg:text-5xl">
+                <h2 className="mb-4 text-4xl font-display sm:text-5xl md:text-6xl lg:text-5xl">
                   We Build &
                 </h2>
-                <h2 className="mb-4 text-4xl font-medium sm:text-5xl md:text-6xl lg:text-5xl lg:ml-14">
+                <h2 className="mb-4 text-4xl font-display sm:text-5xl md:text-6xl lg:text-5xl lg:ml-14">
                   Deliver experience
                 </h2>
                 <p className="text-base sm:text-lg md:text-xl lg:text-xl font-serif mt-4 lg:mt-14 text-[#06040A]">

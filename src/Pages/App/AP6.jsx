@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 
 export default function AP6() {
@@ -47,15 +46,19 @@ export default function AP6() {
               onClick={() => handleAccordianClick(item.id)}
             >
               <div className="flex w-full border-t border-b border-green-500 justify-between items-center h-[60px] p-3 cursor-pointer">
-                <h2 className="text-base sm:text-lg md:text-xl">{item.question}</h2>
+                <h2 className="text-base sm:text-lg md:text-xl">
+                  {item.question}
+                </h2>
                 <span className="pr-2 text-xl">+</span>
               </div>
-              {accordianState[`toggle${item.id.charAt(0).toUpperCase() + item.id.slice(1)}`] && (
+              {accordianState[
+                `toggle${item.id.charAt(0).toUpperCase() + item.id.slice(1)}`
+              ] && (
                 <p className="p-3 text-sm Description sm:text-base md:text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minus velit hic illum ipsam animi minima perspiciatis, culpa
-                  illo! Deserunt ab quidem dolor exercitationem voluptas quod
-                  commodi velit repudiandae veniam eos.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  velit hic illum ipsam animi minima perspiciatis, culpa illo!
+                  Deserunt ab quidem dolor exercitationem voluptas quod commodi
+                  velit repudiandae veniam eos.
                 </p>
               )}
             </div>
@@ -65,6 +68,3 @@ export default function AP6() {
     </div>
   );
 }
-
-
-
