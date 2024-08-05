@@ -23,7 +23,7 @@ export default function UI2() {
       <div className="w-full max-w-[1280px] mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4">
         <div className="rounded-2xl bg-[#000116] text-white p-6">
           <img className="w-10 h-10" src={searchIcon} alt="searchIcon" />
-          <h1 className="mt-2 text-lg font-medium">DESIGN DISCOVERY</h1>
+          <h1 className="mt-2 text-lg font-display">DESIGN DISCOVERY</h1>
           <p className="mt-3 font-thin">
             We discuss, define & evaluate the key points necessary in the
             discovery.
@@ -31,7 +31,7 @@ export default function UI2() {
         </div>
         <div className="rounded-2xl bg-[#000116] text-white p-6">
           <img className="w-10 h-10" src={systems} alt="systems" />
-          <h1 className="mt-2 text-lg font-medium">SYSTEMS</h1>
+          <h1 className="mt-2 text-lg font-display">SYSTEMS</h1>
           <p className="mt-3 font-thin">
             We build a complete design system to define the UI elements that
             will be used.
@@ -39,7 +39,7 @@ export default function UI2() {
         </div>
         <div className="rounded-2xl bg-[#000116] text-white p-6">
           <img className="w-10 h-10" src={wireframes} alt="wireframes" />
-          <h1 className="mt-2 text-lg font-medium">WIREFRAMES</h1>
+          <h1 className="mt-2 text-lg font-display">WIREFRAMES</h1>
           <p className="mt-3 font-thin">
             Making Mid, and High fidelity wireframes helps to visualize flow
             before development.
@@ -47,7 +47,7 @@ export default function UI2() {
         </div>
         <div className="rounded-2xl bg-[#000116] text-white p-6">
           <img className="w-10 h-10" src={prototype} alt="prototype" />
-          <h1 className="mt-2 text-lg font-medium">PROTOTYPES</h1>
+          <h1 className="mt-2 text-lg font-display">PROTOTYPES</h1>
           <p className="mt-3 font-thin">
             Working prototypes with micro-interactions help in the better
             understanding of the product.

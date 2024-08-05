@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="w-[337px] h-[29px]">
               <img src={aksh} alt="Aksh Technology" />
             </div>
-            <p className="mt-6 text-xl font-semibold line-clamp-3">
+            <p className="mt-6 text-xl font-display line-clamp-3">
               Aksh Technology is your Email newsletter
               <br />
               Webflow template we can build
@@ -33,14 +33,14 @@ const Footer = () => {
                 type="text"
                 placeholder="Enter your email"
               />
-              <button className="w-full lg:w-[116.48px] ml-0 font-medium text-lg  lg:ml-1 h-[45.62px] rounded-md bg-[#B7EFF6] p-2 text-black ">
+              <button className="w-full lg:w-[116.48px] ml-0 font-display text-lg  lg:ml-1 h-[45.62px] rounded-md bg-[#B7EFF6] p-2 text-black ">
                 Subscribe
               </button>
             </div>
           </div>
 
           <div className="text-[#FFFFFF] mb-10 lg:mb-0">
-            <h6 className="text-2xl font-medium">Services</h6>
+            <h6 className="text-2xl font-display">Services</h6>
             <div className="mt-2 lg:py-[80]">
             <p className="pt-2 text-xl font-light">UI/UX Design</p>
             <p className="pt-2 text-xl font-light">App Development</p>
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
 
           <div className="text-[#FFFFFF] mb-10 lg:mb-0">
-          <h6 className="text-2xl font-medium">About Us</h6>
+          <h6 className="text-2xl font-display">About Us</h6>
             <div className="mt-2 ">
             <p className="text-xl font-light">Testimonials</p>
             <p className="pt-2 text-xl font-light">Our Team</p>
@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
 
           <div className="text-[#FFFFFF]">
-            <h6 className="text-2xl font-medium">Contact Info</h6>
+            <h6 className="text-2xl font-display">Contact Info</h6>
             <div className="font-thin">
               <p className="pt-2 text-xl font-light">
                 T-3 & T-4, A-88, sector 4, Noida, Uttar Pradesh, 202301
@@ -73,7 +73,7 @@ const Footer = () => {
 
         <div className="flex flex-col lg:flex-row justify-between items-center text-[#FFFFFF] w-full mt-5 p-5 lg:p-0">
           <div className="flex flex-col items-center lg:items-start">
-            <p className="text-2xl font-medium">Certified by-</p>
+            <p className="text-2xl font-display">Certified by-</p>
             <div className="flex mt-4">
               <img
                 src={startupIndia}
@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
 
           <div className="mt-5 text-white lg:mt-0">
-            <p className="text-2xl font-semibold">Follow Us</p>
+            <p className="text-2xl font-display">Follow Us</p>
             <div className="flex gap-4 mt-2">
             <FaFacebook  className="w-10 h-10"/>
              <FaLinkedin  className="w-10 h-10"/>

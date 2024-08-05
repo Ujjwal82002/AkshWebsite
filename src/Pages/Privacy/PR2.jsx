@@ -2,12 +2,12 @@ export default function  PR2() {
     return (
       <div className="max-w-4xl p-6 mx-auto bg-white shadow-md">
         <div className="mb-8 text-center">
-          <h1 className="mb-2 text-3xl font-bold">Terms and Conditions of Aksh Technology</h1>
+          <h1 className="mb-2 text-3xl font-display">Terms and Conditions of Aksh Technology</h1>
           <p className="text-gray-500">Effective Date: May 30, 2024</p>
         </div>
   
         <div className="mb-8">
-          <h1 className="mb-4 text-2xl font-semibold">Introduction</h1>
+          <h1 className="mb-4 text-2xl font-display">Introduction</h1>
           <p className="text-gray-700">
             Welcome to Aksh Technology. These Terms and Conditions govern your use
             of our website and services. By accessing or using our website and
@@ -18,8 +18,8 @@ export default function  PR2() {
         </div>
   
         <div className="mb-8">
-          <h1 className="mb-4 text-2xl font-semibold">Use of Services</h1>
-          <h3 className="mb-2 text-xl font-medium">Eligibility</h3>
+          <h1 className="mb-4 text-2xl font-display">Use of Services</h1>
+          <h3 className="mb-2 text-xl font-display">Eligibility</h3>
           <p className="text-gray-700">
             You must be at least 18 years old and capable of entering into legally
             binding agreements to use our services. By using our services, you
@@ -28,7 +28,7 @@ export default function  PR2() {
         </div>
   
         <div className="mb-8">
-          <h1 className="mb-4 text-2xl font-semibold">User Conduct</h1>
+          <h1 className="mb-4 text-2xl font-display">User Conduct</h1>
           <p className="mb-2 text-gray-700">
             You agree not to use our services for any unlawful or prohibited
             activities, including but not limited to:
@@ -45,7 +45,7 @@ export default function  PR2() {
         </div>
   
         <div className="mb-8">
-          <h1 className="mb-4 text-2xl font-semibold">Intellectual Property</h1>
+          <h1 className="mb-4 text-2xl font-display">Intellectual Property</h1>
           <p className="text-gray-700">
             All content and materials on our website and services, including but
             not limited to text, graphics, logos, and software, are the property
@@ -58,7 +58,7 @@ export default function  PR2() {
         </div>
   
         <div className="mb-8">
-          <h1 className="mb-4 text-2xl font-semibold">Privacy</h1>
+          <h1 className="mb-4 text-2xl font-display">Privacy</h1>
           <p className="text-gray-700">
             Your use of our services is also governed by our Privacy Policy, which
             is incorporated into these Terms by reference. Please review our
@@ -68,8 +68,8 @@ export default function  PR2() {
         </div>
   
         <div className="mb-8">
-          <h1 className="mb-4 text-2xl font-semibold">Disclaimers and Limitation of Liability</h1>
-          <h3 className="mb-2 text-xl font-medium">Disclaimers</h3>
+          <h1 className="mb-4 text-2xl font-display">Disclaimers and Limitation of Liability</h1>
+          <h3 className="mb-2 text-xl font-display">Disclaimers</h3>
           <p className="mb-4 text-gray-700">
             Our services are provided "as is" and "as available" without
             warranties of any kind, either express or implied, including but not
@@ -78,7 +78,7 @@ export default function  PR2() {
             will be uninterrupted, error-free, or free of viruses or other harmful
             components.
           </p>
-          <h3 className="mb-2 text-xl font-medium">Limitation of Liability</h3>
+          <h3 className="mb-2 text-xl font-display">Limitation of Liability</h3>
           <p className="text-gray-700">
             To the fullest extent permitted by law, Aksh Technology and its
             affiliates, officers, directors, employees, and agents will not be
@@ -98,7 +98,7 @@ export default function  PR2() {
         </div>
   
         <div className="mb-8">
-          <h1 className="mb-4 text-2xl font-semibold">Governing Law</h1>
+          <h1 className="mb-4 text-2xl font-display">Governing Law</h1>
           <p className="text-gray-700">
             These Terms shall be governed by and construed in accordance with the
             laws of the State of Texas, without regard to its conflict of law
@@ -113,7 +113,7 @@ export default function  PR2() {
         </div>
   
         <div className="mb-8">
-          <h1 className="mb-4 text-2xl font-semibold">Changes to Terms</h1>
+          <h1 className="mb-4 text-2xl font-display">Changes to Terms</h1>
           <p className="text-gray-700">
             We may update these Terms from time to time. When we do, we will
             revise the "Effective Date" at the top of this page. We encourage you
@@ -123,10 +123,10 @@ export default function  PR2() {
         </div>
   
         <div className="text-center">
-          <h1 className="mb-4 text-2xl font-semibold">Contact Us</h1>
+          <h1 className="mb-4 text-2xl font-display">Contact Us</h1>
           <p className="text-gray-700">
             If you have any questions or concerns about these Terms, please
-            contact us at: <span className="font-bold">Aksh Technology</span> Email:
+            contact us at: <span className="font-display">Aksh Technology</span> Email:
             help@akshtechnology.com<span></span> Phone: 9625510038 Address:T-4,
             A-88, Sector 4, Noida, Uttar Pradesh, 201301
           </p>

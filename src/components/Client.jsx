@@ -71,7 +71,7 @@ const Client = () => {
 
   return (
     <div className="p-6 mx-auto mt-2 overflow-hidden lg:py-10 lg:px-0 lg:w-full max-w-9xl">
-      <div className="w-full max-w-2xl mx-auto my-3 font-extrabold text-center">
+      <div className="w-full max-w-2xl mx-auto my-3 text-center font-display">
         <h1 className="text-lg md:text-xl lg:text-2xl">
           What our Clients are saying about us!
         </h1>

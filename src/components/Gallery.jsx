@@ -9,7 +9,7 @@ const Gallery = () => {
   return (
     <>
       <div className="text-center">
-        <h1 className="mt-0 mb-2 text-3xl font-semibold text-gray-900 sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+        <h1 className="mt-0 mb-2 text-3xl text-gray-900 font-display sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
           Gallery
         </h1>
       </div>
