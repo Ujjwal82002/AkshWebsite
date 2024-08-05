@@ -37,7 +37,7 @@ const ContactPopup = ({ isOpen, onClose }) => {
       <div className="flex flex-col max-w-4xl p-4 mx-auto bg-white rounded-lg shadow-lg md:p-8 md:flex-row  w-[800px] h-[600px]">
         {/* Company Information Side */}
         <div className="flex flex-col items-start w-full p-4 space-y-4 md:w-1/2 md:space-y-6">
-          <h2 className="mb-2 text-xl font-semibold md:text-2xl">Contact Us</h2>
+          <h2 className="mb-2 text-xl font-display md:text-2xl">Contact Us</h2>
           <div className="flex items-center space-x-4">
             <FaMapMarkerAlt className="text-lg text-blue-600 md:text-2xl" />
             <p className="text-sm text-gray-800 md:text-base">1T-3 & T-4, A-88, sector 4, Noida, Uttar Pradesh, 202301</p>
@@ -54,7 +54,7 @@ const ContactPopup = ({ isOpen, onClose }) => {
 
         {/* Contact Form Side */}
         <div className="w-full p-4 md:w-1/2">
-          <h2 className="mb-4 text-2xl font-semibold">Let's Connect</h2>
+          <h2 className="mb-4 text-2xl font-display">Let's Connect</h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
               <label className="block text-gray-800">Name</label>

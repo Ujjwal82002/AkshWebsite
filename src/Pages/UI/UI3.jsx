@@ -14,10 +14,10 @@ export default function UI3() {
     <div  className="bg-[#00ffff] ">
     <div className="flex flex-col lg:mt-[-200px] m-8 lg:flex-row lg:m-32 lg:ml-44">
       <div className="w-full lg:w-[518px] mt-7 lg:m-0 lg:h-[410.98px] mb-8 lg:mb-0">
-        <h1 className="text-3xl font-bold lg:text-5xl">
+        <h1 className="text-3xl font-display lg:text-5xl">
           Design. Think.
         </h1>
-        <h1 className="-mt-2 text-3xl font-bold lg:text-5xl lg:mt-2">
+        <h1 className="-mt-2 text-3xl font-display lg:text-5xl lg:mt-2">
           Solve. Develop.
         </h1>
         <p className="text-base lg:text-lg mt-4 lg:mt-4 px-0 lg:px-7 lg:-ml-7 lg:w-[482.93px]">
@@ -33,7 +33,7 @@ export default function UI3() {
           <div className="flex h-auto mb-8">
             <img className="mr-3" src={heart} alt="" />
             <div className="w-[204px] h-[74px]">
-              <h1 className="font-medium">168</h1>
+              <h1 className="font-display">168</h1>
               <p className="w-[204px]">
                 Lorem ipsum dolor sit amet lorem ?
               </p>
@@ -43,7 +43,7 @@ export default function UI3() {
           <div className="flex my-8">
             <img className="mr-3" src={star} alt="star" />
             <div className="w-[204px] h-[74px]">
-              <h1 className="font-medium">168</h1>
+              <h1 className="font-display">168</h1>
               <p className="w-[204px]">
                 Lorem dolor sit amet consectetur adipisicing elit. Moll
               </p>
@@ -53,7 +53,7 @@ export default function UI3() {
           <div className="flex my-8">
             <img className="mr-3" src={timer} alt="" />
             <div className="w-[204px] h-[74px]">
-              <h1 className="font-medium">168</h1>
+              <h1 className="font-display">168</h1>
               <p className="w-[204px]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,fsddgth amet?
               </p>
@@ -65,7 +65,7 @@ export default function UI3() {
           <div className="flex mb-8">
             <img className="mr-3" src={folderIcon} alt="" />
             <div className="w-[204px] h-[74px]">
-              <h1 className="font-medium">168</h1>
+              <h1 className="font-display">168</h1>
               <p className="w-[204px]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, amet?
               </p>
@@ -75,7 +75,7 @@ export default function UI3() {
           <div className="flex my-8">
             <img className="mr-3" src={fileIcon} alt="fileIcon" />
             <div className="w-[204px] h-[74px]">
-              <h1 className="font-medium">168</h1>
+              <h1 className="font-display">168</h1>
               <p className="w-[204px]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, amet?
               </p>
@@ -84,7 +84,7 @@ export default function UI3() {
           <div className="flex my-8">
             <img className="mr-3" src={copy} alt="" />
             <div className="w-[204px] h-[74px]">
-              <h1 className="font-medium">168</h1>
+              <h1 className="font-display">168</h1>
               <p className="w-[204px]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, amet?
               </p>

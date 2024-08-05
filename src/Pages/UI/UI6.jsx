@@ -27,7 +27,7 @@ export default function UI6() {
     <div className="flex items-center justify-center p-4 sm:p-6 md:p-8">
       <div className="flex flex-col items-center w-full max-w-5xl mt-8 md:mt-12 lg:mt-16">
         <div className="text-center">
-          <h1 className="text-2xl font-medium sm:text-3xl md:text-4xl">FAQ</h1>
+          <h1 className="text-2xl font-display sm:text-3xl md:text-4xl">FAQ</h1>
           <p className="w-full mx-auto mt-2 text-sm sm:mt-4 sm:text-base md:text-lg sm:w-4/5 lg:w-3/4">
             Have any questions about UI/UX design services? You can check the
             FAQs or reach out to us to get your answer.

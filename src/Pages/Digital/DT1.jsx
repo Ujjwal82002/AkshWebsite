@@ -8,10 +8,10 @@ export default function DT1() {
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-10">
           <div className="text-center lg:text-left">
             <section className="p-4 lg:mt-[-150px] lg:px-6">
-              <h2 className="lg:ml-[-60px] text-4xl font-bold sm:text-5xl md:text-6xl lg:p-28 lg:text-6xl">
+              <h2 className="lg:ml-[-60px] text-4xl font-display sm:text-5xl md:text-6xl lg:p-28 lg:text-6xl">
               We're here to guide in 
               </h2>
-              <h2 className="text-4xl lg:mt-[-180px]  font-bold lg:px-48 lg:py-20 sm:text-5xl md:text-6xl lg:text-6xl lg:ml-[-140px]">
+              <h2 className="text-4xl lg:mt-[-180px]  font-display lg:px-48 lg:py-20 sm:text-5xl md:text-6xl lg:text-6xl lg:ml-[-140px]">
               Digital Marketing
               </h2>
               <p className="text-base lg:ml-24 sm:text-lg md:text-xl lg:text-xl lg:font-normal font-serif mt-4 lg:mt-[-30px] text-[#06040A]">
