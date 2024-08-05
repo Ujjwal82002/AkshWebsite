@@ -11,10 +11,10 @@ export default function UI2() {
   return (
     <div className="flex flex-col bg-[#00ffff] lg:mt-[-120px] items-center min-h-screen">
       <div className="w-full max-w-[1209px] mt-8 px-4">
-        <p className="text-2xl font-semibold text-center">
+        <p className="text-2xl text-center font-display">
           Our designers adhere to Established Design Principles and Philosophies
           to <br className="hidden sm:inline" />
-          <span className="block sm:inline">
+          <span className="block font-display sm:inline">
             Create Interfaces tailored to the Attitudes of our Target Users.
           </span>
         </p>
