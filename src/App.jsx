@@ -16,8 +16,8 @@ import AppDevlopment from "./Pages/App/AppDevlopment";
 export default function App() {
   return (
     <>
-    <Header />
    <BrowserRouter>
+   <Header />
     <Routes>
       <Route path="/" element={<Display />}/>
       <Route path="/web" element={<WebDevlopment />}/>
@@ -26,10 +26,10 @@ export default function App() {
      <Route path="/gm" element={<GameDevlopment />}/>
      <Route path="/dt" element={<Digital />}/>
      <Route path="/ap" element={<AppDevlopment />}/>
-     
     </Routes>
+    <Footer />
    </BrowserRouter>
-   <Footer />
+
 </>
   )
 
