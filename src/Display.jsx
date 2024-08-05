@@ -9,6 +9,7 @@ import MenuSection from "./components/MenuSection";
 import Services from "./components/Services";
 import Team from "./components/Team";
 
+
 export default function Display() {
   return (
     <>
@@ -31,5 +32,7 @@ export default function Display() {
         <Client />
       </div>
     </>
+
+
   );
 }
