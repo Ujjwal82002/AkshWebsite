@@ -1,7 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function  PR2() {
     return (
-      <div className="max-w-4xl p-6 mx-auto bg-white shadow-md">
-        <div className="mb-8 text-center">
+      <div className="bg-[#000116] flex items-center justify-center  min-h-screen">
+      <div className="w-full max-w-4xl p-8 mx-4 bg-white rounded-lg shadow-md ">
+        <div className="mb-8 text-center ">
           <h1 className="mb-2 text-3xl font-display">Terms and Conditions of Aksh Technology</h1>
           <p className="text-gray-500">Effective Date: May 30, 2024</p>
         </div>
@@ -131,6 +133,7 @@ export default function  PR2() {
             A-88, Sector 4, Noida, Uttar Pradesh, 201301
           </p>
         </div>
+      </div>
       </div>
     );
   }

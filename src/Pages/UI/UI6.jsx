@@ -23,7 +23,7 @@ export default function UI6() {
   };
 
   return (
-    <div  className="bg-[#00ffff]">
+    <div  className="">
     <div className="flex items-center justify-center p-4 sm:p-6 md:p-8">
       <div className="flex flex-col items-center w-full max-w-5xl mt-8 md:mt-12 lg:mt-16">
         <div className="text-center">
@@ -36,11 +36,11 @@ export default function UI6() {
 
         <div className="flex flex-col w-full h-auto mt-8 Accordian md:mt-12">
           {[
-            { id: "para1", question: "How does a UI/UX design project start?" },
-            { id: "para2", question: "How does the design process work?" },
-            { id: "para3", question: "What tools do you use?" },
-            { id: "para4", question: "Can you work with our existing brand?" },
-            { id: "para5", question: "What is your pricing structure?" },
+            { id: "para1", question: "How does a UI/UX design project start?",ans:"UI/UX design project starts with research, defining project scope, creating user personas, journey mapping, wireframing, prototyping, visual design, usability testing, iteration, and design handoff to development." },
+            { id: "para2", question: "How does the design process work?", ans:"The design process involves: Research > Ideation > Concept Development > Prototyping > Testing > Refining > Visual Design > Iteration > Feedback > Finalization > Implementation, with continuous collaboration and feedback loops" },
+            { id: "para3", question: "What tools do you use?" ,ans:" Figma, Adobe XD, Sketch InVision, Adobe XD, Figma Storybook, Bit Slack, Trello, AsanaUser Testing, TryMyUI Adobe Creative Cloud" },
+            { id: "para4", question: "Can you work with our existing brand?", ans:"Yes, I can align UI/UX design with your existing brand, ensuring consistency in colors, typography, and style. The goal is to enhance usability while maintaining your brand’s identity and values." },
+            { id: "para5", question: "What is your pricing structure?", ans:"Pricing for UI/UX design typically depends on factors like project scope, complexity, and timeline. Common structures include hourly rates, fixed project fees, or retainers for ongoing work" },
           ].map((item) => (
             <div
               key={item.id}
@@ -53,10 +53,7 @@ export default function UI6() {
               </div>
               {accordianState[`toggle${item.id.charAt(0).toUpperCase() + item.id.slice(1)}`] && (
                 <p className="p-3 text-sm Description sm:text-base md:text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minus velit hic illum ipsam animi minima perspiciatis, culpa
-                  illo! Deserunt ab quidem dolor exercitationem voluptas quod
-                  commodi velit repudiandae veniam eos.
+               {item.ans}
                 </p>
               )}
             </div>

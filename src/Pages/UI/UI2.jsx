@@ -9,7 +9,7 @@ import prototype from "../../assets/akshtech images/prototype.svg";
 
 export default function UI2() {
   return (
-    <div className="flex flex-col bg-[#00ffff] lg:mt-[-120px] items-center min-h-screen">
+    <div className="flex flex-col  lg:mt-[-120px] items-center min-h-screen">
       <div className="w-full max-w-[1209px] mt-8 px-4">
         <p className="text-2xl text-center font-display">
           Our designers adhere to Established Design Principles and Philosophies
