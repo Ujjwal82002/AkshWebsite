@@ -6,8 +6,9 @@ import prototype from "../../assets/akshtech images/prototype.png"
 
 
 export default function Web1() {
+  
   return (
-    <div className="flex flex-col max-w-screen-2xl bg-[#00ffff] lg:mt-[-120px] items-center min-h-screen">
+    <div className="flex flex-col max-w-screen-2xl lg:mt-[-120px] items-center min-h-screen">
     <div className="w-full max-w-[1209px] mt-8 px-4">
       <p className="text-2xl font-semibold text-center">
         Our designers adhere to Established Design Principles and Philosophies

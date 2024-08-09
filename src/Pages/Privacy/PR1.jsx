@@ -1,7 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function PR1() {
     return (
-      <div className="flex items-center justify-center min-h-screen bg-gray-100">
-        <div className="w-full max-w-4xl p-8 mx-4 bg-white rounded-lg shadow-md">
+     
+      <div className="flex items-center justify-center min-h-screen bg-[#000116] ">
+        <div className="w-full max-w-4xl p-8 mx-4 bg-white rounded-lg shadow-md ">
           <h1 className="mb-4 text-3xl text-center font-display">Privacy Policy of Aksh Technology</h1>
           <p className="mb-2 text-center text-gray-600">Effective Date: May 30, 2024</p>
   
@@ -78,5 +80,6 @@ export default function PR1() {
           </section>
         </div>
       </div>
+  
     );
   }

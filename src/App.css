@@ -1,0 +1,8 @@
+.checkmark::before {
+    content: '✔'; /* Unicode for the checkmark */
+    display: inline-block;
+    margin-right: 8px; /* Adjust space between checkmark and text */
+    color: green; /* Adjust color as needed */
+  }
+  
+

@@ -36,7 +36,7 @@ import "slick-carousel/slick/slick-theme.css";
     ],
   };
   return (
-    <div  className="bg-[#00ffff]  max-w-screen-2xl">
+    <div  className=" max-w-screen-2xl">
     <div className="mt-4 ">
       <div className="flex flex-col items-center justify-center h-auto p-10 mt-[-20px] ">
         <div className="w-[368px] h-[58px] bg-[#dacaca] flex justify-center  items-center rounded-xl">
