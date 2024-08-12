@@ -1,15 +1,15 @@
-import Images1 from "../assets/akshtech images/AkshTeam.jpg";
 
-import Images3 from "../assets/akshtech images/1.jpg";
-import Images4 from "../assets/akshtech images/4.jpg";
-import Images5 from "../assets/akshtech images/groupic.jpg";
-import Intern from "../assets/akshtech images/Intern.png";
-import { Link } from "react-router-dom";
+import Images1 from "../../assets/akshtech images/AkshTeam.jpg";
 
-const Gallery = () => {
+import Images3 from "../../assets/akshtech images/1.jpg";
+import Images4 from "../../assets/akshtech images/4.jpg";
+import Images5 from "../../assets/akshtech images/groupic.jpg";
+import Intern from "../../assets/akshtech images/Intern.png";
+
+const Gallery1 = () => {
   return (
     <>
-      <div className="text-center lg:mt-[-100px]">
+      <div className="text-center lg:mt-[40px]">
         <h1 className="mt-0 mb-2 text-3xl text-gray-900 font-display sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
           Gallery
         </h1>
@@ -56,15 +56,10 @@ const Gallery = () => {
             />
           </div>
         </div>
-
-        <div className="w-full lg:my-5 lg:ml-[-15px] max-w-[1300px]">
-          <Link to="/gallery1"><button className="w-full lg:h-[50px] bg-[#235678] mb-7  lg:my-[-60px]  p-4 lg:ml-28 font-display text-white rounded-xl">
-            See All Pictures
-          </button></Link>
-        </div>
       </div>
     </>
   );
 };
 
-export default Gallery;
+export default Gallery1;
+

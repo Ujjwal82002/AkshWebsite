@@ -11,6 +11,8 @@ import AppDevlopment from "./Pages/App/AppDevlopment";
 import PrivacyPolicy1 from "./Pages/Privacy/PrivacyPolicy1";
 import PrivacyPolicy2 from "./Pages/Privacy/PrivacyPolicy2";
 import ContactPopup from "./Pages/ContactUs/Contact";
+import Gallery1 from "./Pages/Gallery/Gallery1";
+import OurTeam from "./Pages/OurTeam/OurTeam";
 
 export default function App() {
   return (
@@ -28,6 +30,8 @@ export default function App() {
           <Route path="/pr1" element={<PrivacyPolicy1 />} />
           <Route path="/pr2" element={<PrivacyPolicy2 />} />
           <Route path="/contact" element={<ContactPopup />}/>
+          <Route path="/gallery1" element={<Gallery1 />}/>
+          <Route path="/ourteam" element={<OurTeam />}/>
         </Routes>
         <Footer />
       </BrowserRouter>
