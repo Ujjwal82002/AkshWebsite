@@ -40,7 +40,7 @@ export default function Header() {
 
   return (
     <div
-      className={`sticky top-0 z-50  bg-[#000116] transition-all duration-300 ${
+      className={`sticky top-0 z-50 bg-[#000116]  transition-all duration-300 ${
         scrolled
           ? "bg-blue-500"
           : location.pathname === "/"
@@ -48,11 +48,11 @@ export default function Header() {
           : "bg-[#000116]"
       }`}
     >
-      <div className="flex items-center justify-between w-full px-6 py-5 mx-auto lg:py-10 md:px-16">
+      <div className="flex items-center justify-between w-full px-6 py-5 mx-auto lg:bg-none lg:py-10 md:px-16">
         <div className="w-[200px] ml:[-30px] lg:fixed lg:z-20 pt-2 lg:h-[65px]">
           <img
             src={Logo}
-            className="w-[90%] h-[130%] rounded-full lg:mt-[-13px]"
+            className="w-[90%] h-[130%]  rounded-full lg:mt-[-13px]"
             alt="Logo"
           />
         </div>
@@ -69,14 +69,14 @@ export default function Header() {
         )}
 
         {/* Desktop Menu */}
-        <ul className="hidden gap-9 fixed w-[900px] h-[55px] left-[201px] z-50 text-xl lg:mt-[-5px] mt-8 ml-96 p-3 text-[#f3ffff] pl-[3%] md:flex rounded-full">
+        <ul className="hidden gap-9 fixed w-[900px] h-[55px]  left-[201px] z-50 text-xl lg:mt-[-5px] mt-8 ml-96 p-3 text-[#f3ffff] pl-[3%] md:flex rounded-full">
           <HashLink to="/#home">
-            <li className="cursor-pointer hover:text-[#000000]">
+            <li className="cursor-pointer hover:text-[hsl(110,54%,50%)]">
               <div>Home</div>
             </li>
           </HashLink>
           <li
-            className="relative cursor-pointer transition-all duration-700 hover:text-[#000000]"
+            className="relative cursor-pointer transition-all duration-700 hover:text-[hsl(110,54%,50%)]"
             onMouseEnter={() => toggleDropdown(true)}
             onMouseLeave={() => closeDropdown(false)}
           >
@@ -127,12 +127,12 @@ export default function Header() {
           </li>
           <HashLink
             to="/#about"
-            className="cursor-pointer hover:text-[#000000]"
+            className="cursor-pointer hover:text-[hsl(110,54%,50%)]"
           >
             About
           </HashLink>
           <li
-            className="relative cursor-pointer transition-all duration-700 hover:text-[#000000]"
+            className="relative cursor-pointer transition-all duration-700 hover:text-[hsl(110,54%,50%)]"
             onMouseEnter={() => toggleDropdown2nd(true)}
             onMouseLeave={() => closeDropdown2nd(false)}
           >
@@ -159,25 +159,25 @@ export default function Header() {
           </li>
           <HashLink
             to="/#gallery"
-            className="cursor-pointer hover:text-[#000000]"
+            className="cursor-pointer hover:text-[hsl(110,54%,50%)]"
           >
             Gallery
           </HashLink>
           <HashLink
             to="/#team"
-            className="cursor-pointer hover:text-[#000000]"
+            className="cursor-pointer hover:text-[hsl(110,54%,50%)]"
           >
             Team
           </HashLink>
           <HashLink
             to="/#testimonial"
-            className="cursor-pointer hover:text-[#000000]"
+            className="cursor-pointer hover:text-[hsl(110,54%,50%)]"
           >
             Testimonials
           </HashLink>
           <li
             onClick={openPopup}
-            className="cursor-pointer hover:text-[#000000]"
+            className="cursor-pointer hover:text-[hsl(110,54%,50%)]"
           >
             Contact Us
           </li>
