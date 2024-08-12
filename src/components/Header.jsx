@@ -139,7 +139,7 @@ export default function Header() {
             <div>Policy</div>
             {/* Dropdown menu for Policy */}
             <div
-              className={`absolute left-0 mt-1 rounded-lg text-center bg-white border-gray-300 shadow-md ${
+              className={`absolute left-0 mt-1  rounded-lg text-center items-center bg-white border-gray-300 shadow-md ${
                 open ? "block" : "hidden"
               }`}
             >

@@ -5,7 +5,8 @@ import Game from "../assets/akshtech images/play.jpeg";
 import Web from "../assets/akshtech images/web.png"
 import Software from "../assets/akshtech images/software.svg.png"
 import Cart from "../assets/akshtech images/cart.jpeg"
-import Digital from "../assets/akshtech images/gm.png"
+
+import Digital from "../assets/akshtech images/oniline.jpeg"
 
 
 const services = [
