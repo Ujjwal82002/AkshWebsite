@@ -163,9 +163,9 @@ const Footer = () => {
           <div className="mt-5 text-white lg:mt-0">
             <p className="text-2xl font-display">Follow Us</p>
             <div className="flex gap-4 mt-2">
-            <FaFacebook  className="w-10 h-10"/>
-             <FaLinkedin  className="w-10 h-10"/>
-            <FaInstagram  className="w-10 h-10"/>
+         <Link to="https://www.facebook.com/people/Aksh-Tech/61559685602611/?mibextid=ZbWKwL"><FaFacebook  className="w-10 h-10"/></Link>
+         <Link to="https://www.linkedin.com/company/aksh-technology/"><FaLinkedin  className="w-10 h-10"/></Link>
+         <Link to="https://www.instagram.com/aksh_technology?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><FaInstagram  className="w-10 h-10"/></Link>
             </div>
           </div>
         </div>
