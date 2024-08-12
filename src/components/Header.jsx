@@ -40,7 +40,7 @@ export default function Header() {
 
   return (
     <div
-      className={`sticky top-0 z-50 bg-[#000116]  transition-all duration-300 ${
+      className={`sticky top-0 z-50 bg-[#000116] transition-all duration-300 ${
         scrolled
           ? "bg-blue-500"
           : location.pathname === "/"

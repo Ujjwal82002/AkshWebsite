@@ -72,9 +72,16 @@
 //   );
 // }
 import Mob3 from "../assets/akshtech images/Mob3.svg";
+import { useState } from "react";
 import Card from "./Card";
+import Contact from "../Pages/ContactUs/Contact";
 
 export default function MenuSection() {
+  const [isPopupOpen, setPopupOpen] = useState(false);
+
+  const openPopup = () => setPopupOpen(true);
+  const closePopup = () => setPopupOpen(false);
+
   const cardData = [
     {
       title: "Digitize",
@@ -123,9 +130,10 @@ export default function MenuSection() {
                   of innovation, where every line of code is infused with
                   creativity and every project is a masterpiece in the making.
                 </p>
-                <button className="px-8 py-3 mt-6 text-base font-medium text-white bg-black rounded-full sm:py-4 md:py-5 sm:text-lg md:text-xl lg:mt-9 sm:px-10 md:px-12 lg:px-14 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-400">
+                <button className="px-8 py-3 mt-6 text-base font-medium text-white bg-black rounded-full sm:py-4 md:py-5 sm:text-lg md:text-xl lg:mt-9 sm:px-10 md:px-12 lg:px-14 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-400" onClick={openPopup}>
                   Get Started
                 </button>
+                <Contact isOpen={isPopupOpen} onClose={closePopup} />
               </section>
             </div>
             <div className="flex justify-center transition-transform duration-300 ease-in-out lg:justify-end hover:scale-105">
