@@ -4,6 +4,7 @@ import Images3 from "../assets/akshtech images/1.jpg";
 import Images4 from "../assets/akshtech images/4.jpg";
 import Images5 from "../assets/akshtech images/groupic.jpg";
 import Intern from "../assets/akshtech images/Intern.png";
+import { Link } from "react-router-dom";
 
 const Gallery = () => {
   return (
@@ -57,9 +58,9 @@ const Gallery = () => {
         </div>
 
         <div className="w-full lg:my-5 lg:ml-[-15px] max-w-[1300px]">
-          <button className="w-full lg:h-[50px] bg-[#235678] mb-7  lg:my-[-60px]  p-4 lg:ml-28 font-display text-white rounded-xl">
+          <Link to="/gallery1"><button className="w-full lg:h-[50px] bg-[#235678] mb-7  lg:my-[-60px]  p-4 lg:ml-28 font-display text-white rounded-xl">
             See All Pictures
-          </button>
+          </button></Link>
         </div>
       </div>
     </>

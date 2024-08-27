@@ -1,17 +1,23 @@
 import Word from "../assets/akshtech images/wordpress.jpg";
-import Cart from "../assets/akshtech images/cart.jpeg";
+import App from "../assets/akshtech images/app1.svg.png";
 import Cloud from "../assets/akshtech images/cloud.png";
 import Game from "../assets/akshtech images/play.jpeg";
+import Web from "../assets/akshtech images/web.png"
+import Software from "../assets/akshtech images/software.svg.png"
+import Cart from "../assets/akshtech images/cart.jpeg"
+
+import Digital from "../assets/akshtech images/oniline.jpeg"
+
 
 const services = [
-  { img: Word, text: "Alex raises $8.4M to bring DeFi to the..." },
-  { img: Cart, text: "NYC gets own cryptocurrency after..." },
-  { img: Cloud, text: "Innovative cloud solutions for modern businesses..." },
-  { img: Game, text: "Next-gen gaming technology and experiences..." },
-  { img: Word, text: "Alex raises $8.4M to bring DeFi to the..." },
-  { img: Cart, text: "NYC gets own cryptocurrency after..." },
-  { img: Cloud, text: "Innovative cloud solutions for modern businesses..." },
-  { img: Game, text: "Next-gen gaming technology and experiences..." },
+  { img: Word, text: "Build websites with ease.." },
+  { img: App, text: "Innovative apps for everyone.." },
+  { img: Cloud, text: "Store data and share securely." },
+  { img: Game, text: "Designing fun, engaging games." },
+  { img: Software, text: "Software that solves problems." },
+  { img: Web, text: "Creating dynamic web solutions." },
+  { img: Digital, text: "Boosting online brand visibility." },
+  { img: Cart, text: "Shopping made easy online." },
 ];
 
 export default function Services() {

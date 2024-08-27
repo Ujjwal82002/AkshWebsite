@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 
 export default function AP6() {
@@ -22,23 +23,43 @@ export default function AP6() {
   };
 
   return (
-    <div className="flex items-center bg-[#00ffff] justify-center p-4 sm:p-6 md:p-8">
+    <div className="flex items-center justify-center p-4 sm:p-6 md:p-8">
       <div className="flex flex-col items-center w-full max-w-5xl mt-8 md:mt-12 lg:mt-16">
         <div className="text-center">
           <h1 className="text-2xl font-display sm:text-3xl md:text-4xl">FAQ</h1>
           <p className="w-full mx-auto mt-2 text-sm sm:mt-4 sm:text-base md:text-lg sm:w-4/5 lg:w-3/4">
-            Have any questions about UI/UX design services? You can check the
+            Have any questions about App Development services? You can check the
             FAQs or reach out to us to get your answer.
           </p>
         </div>
 
         <div className="flex flex-col w-full h-auto mt-8 Accordian md:mt-12">
           {[
-            { id: "para1", question: "How does a UI/UX design project start?" },
-            { id: "para2", question: "How does the design process work?" },
-            { id: "para3", question: "What tools do you use?" },
-            { id: "para4", question: "Can you work with our existing brand?" },
-            { id: "para5", question: "What is your pricing structure?" },
+            {
+              id: "para1",
+              question: "How does an App Development project start?",
+              ans: "An app development project starts with planning, where goals, target audience, and features are defined. This is followed by research, wireframing, and creating a roadmap for development and design.",
+            },
+            {
+              id: "para2",
+              question: "How does the design process work?",
+              ans: "The design process in app development involves user research, creating wireframes, developing prototypes, conducting usability testing, refining designs based on feedback, and finalizing the visual elements before development begins.",
+            },
+            {
+              id: "para3",
+              question: "What tools do you use?",
+              ans: "For app development, I use tools like Figma for design, React Native for cross-platform coding, Git for version control, and Trello for project management, ensuring efficiency and collaboration throughout.",
+            },
+            {
+              id: "para4",
+              question: "Can you work with our existing brand?",
+              ans: "Yes, I can work with your existing brand in app development, ensuring that the app's design, functionality, and user experience align with your brand identity and values throughout the process.",
+            },
+            {
+              id: "para5",
+              question: "What is your pricing structure?",
+              ans: "My app development pricing structure includes hourly rates, fixed project fees, or retainer options for ongoing support, tailored to your project's complexity, features, and specific requirements to meet your budget.",
+            },
           ].map((item) => (
             <div
               key={item.id}
@@ -49,16 +70,15 @@ export default function AP6() {
                 <h2 className="text-base sm:text-lg md:text-xl">
                   {item.question}
                 </h2>
-                <span className="pr-2 text-xl">+</span>
+                <span className="pr-2 text-xl">
+                  {accordianState[`toggle${item.id.charAt(0).toUpperCase() + item.id.slice(1)}`] ? "-" : "+"}
+                </span>
               </div>
               {accordianState[
                 `toggle${item.id.charAt(0).toUpperCase() + item.id.slice(1)}`
               ] && (
                 <p className="p-3 text-sm Description sm:text-base md:text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                  velit hic illum ipsam animi minima perspiciatis, culpa illo!
-                  Deserunt ab quidem dolor exercitationem voluptas quod commodi
-                  velit repudiandae veniam eos.
+                  {item.ans}
                 </p>
               )}
             </div>

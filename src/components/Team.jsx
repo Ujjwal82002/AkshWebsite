@@ -5,10 +5,12 @@ import smitha from "../assets/akshtech images/smitha.svg";
 import kamal from "../assets/akshtech images/kamal.svg";
 import raushan from "../assets/akshtech images/rausan.svg";
 import { TbCornerDownRight } from "react-icons/tb";
+import { Link } from "react-router-dom";
+
 
 const Team = () => {
   return (
-    <div className="overflow-hidden teamBody bg-[#000116] lg:mr-4 ">
+    <div className="overflow-hidden teamBody bg-[#000116] lg:mr-0 ">
       <div className="container  bg-[#000116]  lg:w-[1240px] lg:ml-32  flex flex-col justify-center items-center px-4 sm:px-6 lg:px-3">
         <div className="bg-[#18203A] w-full max-w-[1380px] rounded-lg p-6 mt-10 flex items-center">
           <TbCornerDownRight className="text-white font-display" />
@@ -48,9 +50,9 @@ const Team = () => {
         </div>
 
         <div className="w-full max-w-[1280px]">
-          <button className="w-full h-[50px] bg-[#B7EFF6] mb-10 mt-5 p-4 font-display text-black rounded-xl">
+         <Link to="/ourteam"><button className="w-full h-[50px] bg-[#B7EFF6] mb-10 mt-5 p-4 font-display text-black rounded-xl">
             See All members
-          </button>
+          </button></Link> 
         </div>
       </div>
     </div>
